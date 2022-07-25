@@ -23,6 +23,7 @@ yarn add swamper-loader
       loader: 'worker-loader',
       options: {
         publicPath: '/scripts/workers/',
+        esModule: false,
       },
     },
     {
@@ -43,6 +44,15 @@ yarn add swamper
 
 ```js
 export default class MathWorker {
+  // On worker create
+  init () {
+    this.emit('eventName', arg1, arg2, ...);
+
+    this.on('eventName', (arg1, arg2, ...) => {
+      // ...
+    });
+  }
+
   async add(a, b) {
     return a + b;
   }
@@ -53,10 +63,15 @@ export default class MathWorker {
 
 ```js
 import swamper from 'swamper';
-
 import MathWorker from './math.worker';
 
 swamper(MathWorker).then(async worker => {
+  worker.on('eventName', (arg1, arg2, ...) => {
+    // ...
+  });
+
+  worker.emit('eventName', arg1, arg2, ...);
+
   const result = await worker.add(1, 2);
   console.log(result); // 3
 });
