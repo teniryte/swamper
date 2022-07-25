@@ -1,0 +1,36 @@
+{
+  "name": "swamper",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "description": "Tool for Web Workers",
+  "keywords": [
+    "tool",
+    "util",
+    "webworkers",
+    "workers",
+    "wrapper",
+    "webworker",
+    "worker"
+  ],
+  "homepage": "https://github.com/teniryte/swamper",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "node ./node_modules/.bin/jest"
+  },
+  "author": {
+    "name": "teniryte",
+    "email": "teniryte@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:teniryte/swamper.git"
+  },
+  "publish": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
