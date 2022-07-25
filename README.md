@@ -4,15 +4,17 @@
 
 # swamper
 
-Tool for [**swamper webpack loader**](https://github.com/teniryte/swamper-loader)
+Swamper is a webpack loader and wrapper around [**worker-loader**](https://github.com/webpack-contrib/worker-loader).
 
-Swamper is a webpack loader and wrapper around [**worker-loader**](https://github.com/webpack-contrib/worker-loader) web workers loader.
+## Installation
 
-## Webpack Loader
+First you need to install [**swamper webpack loader**](https://github.com/teniryte/swamper-loader) and **swamper package**:
 
 ```sh
-yarn add swamper-loader
+yarn add swamper swamper-loader
 ```
+
+Add webpack rules:
 
 ```js
 // ...
@@ -34,7 +36,7 @@ yarn add swamper-loader
 // ...
 ```
 
-## Swamper
+## Example
 
 ```sh
 yarn add swamper
