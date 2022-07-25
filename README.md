@@ -25,7 +25,6 @@ Add webpack rules:
       loader: 'worker-loader',
       options: {
         publicPath: '/scripts/workers/',
-        esModule: false,
       },
     },
     {
