@@ -2675,11 +2675,6 @@ pretty-format@^26.6.2:
     ansi-styles "^4.0.0"
     react-is "^17.0.1"
 
-promise-worker@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npmjs.org/promise-worker/-/promise-worker-2.0.1.tgz#63bb532624ecd40cdb335b51bb7830c3c892aa6c"
-  integrity sha512-jR7vHqMEwWJ15i9vA3qyCKwRHihyLJp1sAa3RyY5F35m3u5s2lQUfq0nzVjbA8Xc7+3mL3Y9+9MHBO9UFRpFxA==
-
 prompts@^2.0.1:
   version "2.4.2"
   resolved "https://registry.npmjs.org/prompts/-/prompts-2.4.2.tgz#7b57e73b3a48029ad10ebd44f74b01722a4cb069"
