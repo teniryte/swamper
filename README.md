@@ -1,6 +1,8 @@
 # swamper
 
-Tool for Web Workers
+Tool for **swamper webpack loader**(https://github.com/teniryte/swamper-loader)
+
+Swamper is a webpack loader and wrapper around [**worker-loader**](https://github.com/webpack-contrib/worker-loader) web workers loader.
 
 ## Webpack Loader
 
@@ -36,7 +38,7 @@ yarn add swamper
 > `math.worker.js`
 
 ```js
-export class MathWorker {
+export default class MathWorker {
   async add(a, b) {
     return a + b;
   }
