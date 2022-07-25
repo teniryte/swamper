@@ -1,3 +1,9 @@
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/teniryte/swamper/graphs/commit-activity) [![Maintaner](https://img.shields.io/badge/Maintainer-teniryte-blue)](https://img.shields.io/badge/maintainer-teniryte-blue) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://swamper.sencort.com/) [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org) [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/) [![GitHub license](https://img.shields.io/github/license/teniryte/swamper.svg)](https://github.com/teniryte/swamper/blob/master/LICENSE) [![Profile views](https://gpvc.arturio.dev/teniryte)](https://gpvc.arturio.dev/teniryte) [![GitHub contributors](https://img.shields.io/github/contributors/teniryte/swamper.svg)](https://GitHub.com/teniryte/swamper/graphs/contributors/) [![GitHub issues](https://img.shields.io/github/issues/teniryte/swamper.svg)](https://GitHub.com/teniryte/swamper/issues/)
+
+[![GitHub forks](https://img.shields.io/github/forks/teniryte/swamper.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/teniryte/swamper/network/) [![GitHub stars](https://img.shields.io/github/stars/teniryte/swamper.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/teniryte/swamper/stargazers/) [![GitHub watchers](https://img.shields.io/github/watchers/teniryte/swamper.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/teniryte/swamper/watchers/) [![GitHub followers](https://img.shields.io/github/followers/teniryte.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/teniryte?tab=followers)
+
+<br />
+
 # swamper
 
 Tool for **swamper webpack loader**(https://github.com/teniryte/swamper-loader)
