@@ -2,11 +2,9 @@
 
 [![GitHub forks](https://img.shields.io/github/forks/teniryte/swamper.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/teniryte/swamper/network/) [![GitHub stars](https://img.shields.io/github/stars/teniryte/swamper.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/teniryte/swamper/stargazers/) [![GitHub watchers](https://img.shields.io/github/watchers/teniryte/swamper.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/teniryte/swamper/watchers/) [![GitHub followers](https://img.shields.io/github/followers/teniryte.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/teniryte?tab=followers)
 
-<br />
-
 # swamper
 
-Tool for **swamper webpack loader**(https://github.com/teniryte/swamper-loader)
+Tool for [**swamper webpack loader**](https://github.com/teniryte/swamper-loader)
 
 Swamper is a webpack loader and wrapper around [**worker-loader**](https://github.com/webpack-contrib/worker-loader) web workers loader.
 
