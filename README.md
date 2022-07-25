@@ -38,10 +38,6 @@ Add webpack rules:
 
 ## Example
 
-```sh
-yarn add swamper
-```
-
 > `math.worker.js`
 
 ```js
